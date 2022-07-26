@@ -142,4 +142,12 @@ def consultar(conexao, sql):
 
     except Exception as error:
         print(error).
-        
+ 
+
+ Comando sql  x = "SELECT * FROM tb_contatos"  Aqui estamos fazendo uma consulta em toda tabela tb_contatos. Podemos usar o WHERE para nos ajudar a realizar filtro
+
+ x = "SELECT * FROM tb_contato WHERE N_IDCONTATO=2" .
+
+ Caso não usemos o * para buscar tudo, podemos indicar as colunas separando cada uma delas por virgula
+
+ A consulta precisamos que seja armazenada em uma variável ou direto em um loop for
